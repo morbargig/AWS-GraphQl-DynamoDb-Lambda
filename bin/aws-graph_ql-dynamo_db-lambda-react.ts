@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
-import * as cdk from 'aws-cdk-lib';
+// import * as cdk from 'aws-cdk-lib';
+import * as cdk from '@aws-cdk/core';
 import { AwsGraphQlDynamoDbLambdaReactStack } from '../lib/aws-graph_ql-dynamo_db-lambda-react-stack';
 
 const app = new cdk.App();
